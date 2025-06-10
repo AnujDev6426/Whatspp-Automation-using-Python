@@ -63,7 +63,7 @@ Whatspp-Adutomation-using-Python/
 
   <h2 style="color: #2c3e50;">📞 Contact</h2>
   <ul>
-    <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+    <li><strong>Email:</strong> <a href="mailto:anujkumawat6426@gmail.com">anujkumawat6426@gmail.com</a></li>
     <li><strong>GitHub:</strong> <a href="https://github.com/AnujDev6426" target="_blank">https://github.com/AnujDev6426</a></li>
   </ul>
 
