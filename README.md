@@ -18,6 +18,18 @@
     <li><strong>ChromeDriver</strong> (matching your Chrome version)</li>
   </ul>
 
+  <h2 style="color: #2c3e50;">📦 Additional Dependencies (Selenium Users)</h2>
+  <p>If you're using the <strong>selenium</strong> version of the script (like <code>t5.py</code> or similar), you will need to install these Python libraries:</p>
+  <pre style="background-color: #eee; padding: 10px; border-radius: 4px;">
+pip install selenium pandas chromedriver-autoinstaller
+  </pre>
+  <p><strong>Note:</strong> <code>chromedriver-autoinstaller</code> automatically installs the correct version of ChromeDriver for your system.</p>
+
+  <p>Alternatively, if you prefer using <code>webdriver-manager</code>:</p>
+  <pre style="background-color: #eee; padding: 10px; border-radius: 4px;">
+pip install selenium pandas webdriver-manager
+  </pre>
+
   <h2 style="color: #2c3e50;">⚙️ Installation</h2>
   <p><strong>1. Clone the repository:</strong></p>
   <pre style="background-color: #eee; padding: 10px; border-radius: 4px;">
@@ -40,7 +52,7 @@ pip install pywhatkit
   <p><strong>1. Prepare the message:</strong> Edit the <code>message.py</code> file to define your message content.</p>
   <p><strong>2. Run the script:</strong></p>
   <pre style="background-color: #eee; padding: 10px; border-radius: 4px;">
-python t4.py
+python t5.py
   </pre>
   <p><strong>3. Authenticate:</strong> Scan the QR code on WhatsApp Web using your phone.</p>
   <p><strong>4. Automation:</strong> The script will send the message to contacts automatically.</p>
@@ -52,9 +64,9 @@ Whatspp-Adutomation-using-Python/
 ├── chromedriver.exe     # ChromeDriver for browser automation
 ├── cookies.pkl          # Stored session cookies
 ├── image.jpg            # Sample image file
-├── message.py           # Script containing the message text
-├── msedgedriver.exe     # (Optional) Edge WebDriver
-├── t4.py                # Main automation script
+├── t4-old.py            # Older version not that efficient
+├── msedgedriver.exe     # (Optional) Edge WebDriver (Might give issue : Chrome is Recommended)
+├── t5.py                # Main automation script
 └── README.md            # Project documentation
   </pre>
 
